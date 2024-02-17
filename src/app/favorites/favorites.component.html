@@ -1,0 +1,9 @@
+
+<div *ngFor="let newsItem of favoriteNews">
+  <h3>{{ newsItem.title }}</h3>
+  <p>{{ newsItem.description }}</p>
+  <p>{{ newsItem.summary }}</p>
+  <p>{{ newsItem.publishedAt | date:'dd MMM yyyy' }}</p>
+  <p>{{ newsItem.favoriteDate | date:'dd MMM yyyy' }}</p>
+</div>
+//Falto de prueba por tiempo
